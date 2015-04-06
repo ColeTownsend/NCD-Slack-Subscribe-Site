@@ -1,0 +1,24 @@
+<head>
+  <title>ncd</title>
+  <script src="//use.typekit.net/zfu1gad.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://coletownsend.com/beta-site/fonts/gt/font.css">
+</head>
+
+<body>
+  <article class="container">
+    <section class="header">
+      <h1>Nickel City Designers</h1>
+      <p>A local Slack chat for Buffalo designers. Join the "mailing list" to be added to the Slack channel.</p>
+    </section>
+    {{> subscribe}}
+  </article>
+</body>
+
+<template name="subscribe">
+  <section id="subscribeForm">
+    {{> MailChimpListSubscribe}}
+  </section>
+</template>
+

@@ -1,0 +1,5 @@
+.meteor/*
+settings.json
+
+!.meteor/packages
+
